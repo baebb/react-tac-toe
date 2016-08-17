@@ -1,0 +1,15 @@
+.board {
+    margin-top: 50px;
+    width: 349px;
+    height: 349px;
+    border: 2px solid #ddd;
+    font-size: 0px;
+}
+
+.tile {
+    width: 115px;
+    height: 115px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #ddd;
+}
