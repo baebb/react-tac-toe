@@ -1,9 +1,15 @@
 .board {
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     width: 349px;
     height: 349px;
     border: 2px solid #ddd;
     font-size: 0px;
+}
+
+.text h3 {
+    margin-top: 50px;
 }
 
 .tile {
@@ -12,4 +18,14 @@
     display: inline-block;
     text-align: center;
     border: 2px solid #ddd;
+}
+
+.status-x {
+    background: url(../images/x.png) no-repeat center;
+    background-size: contain;
+}
+
+.status-o {
+    background: url(../images/o.png) no-repeat center;
+    background-size: contain;
 }
