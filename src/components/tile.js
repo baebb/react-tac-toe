@@ -14,7 +14,6 @@ class TileItem extends React.Component {
 
     clickHandler() {
         //console.log("SHIIIIIIIIT");
-        // this.setState({status: 'x'});
         this.props.tileClick(this.props.ckey, this.props.turn);
     }
 

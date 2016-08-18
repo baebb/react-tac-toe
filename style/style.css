@@ -8,6 +8,10 @@
     font-size: 0px;
 }
 
+.hidden {
+    display: none;
+}
+
 .text h3 {
     margin-top: 50px;
 }
